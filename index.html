@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        .profile{
+            background-color:#4682B4;
+            margin: 100px;
+            width: 300px;
+            height: 300px;
+            overflow: hidden; 
+            border-radius: 150px;
+            border: 4px solid #4682B4;
+        }
+        .profile:hover img{
+            margin-top: -300px;
+            opacity: 0;
+        }
+
+        .profile img{
+            opacity: 1;
+            width: 300px;
+            height: 300px;
+            margin-bottom: -4px;
+            transition: 0.5s;
+        }
+
+
+        .profile figcaption{
+            background-color: #4682B4;
+            width: inherit;
+            height: 260px;
+            text-align: center;
+            padding-top: 40px;
+            color: #fff;
+        }
+        .profile h2{
+            margin: 0px;
+            margin-top: -10px;
+        }
+        .profile p{
+            color: #fff;
+            margin-top: -5px;
+        }
+        .profile ul.skill {
+            margin-top: -5px;
+            list-style: none;
+            padding: 0;
+            font-size: 12px;
+        }
+
+        .profile ul.contact {
+            margin-top: -5px;
+            list-style: none;
+            padding: 0;
+        }
+        .profile a{
+            text-decoration: none;
+            color: #eee;
+            font-size: 12px;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <figure class="profile">
+        <img src="images/M.Popescu.jpg" alt="mirabela popescu">
+        <figcaption>
+            <h2>Mirabela Popescu</h2>
+            <h3>| Graphic Desigher</h3>    
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>  
+            <ul class="skill">
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>CorelDRAW</li>
+            </ul>
+            <ul class="contact"> 
+                <li> <a href="tel:+37360123123"> +373 60 123-123</a> </li>
+                <li> <a href="mailto:mirabpopescu@gmail.com"> mirabpopescu@gmail.com</a></li>
+                <li></li>
+            </ul>
+        </figcaption>  
+    </figure>
+</body>
+</html>
